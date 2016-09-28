@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<title>Omega</title>
+		<meta charset="utf-8"/>
+
+		<!-- This needs to be added in order to make responsive sites using Media Queries -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<script src="https://use.fontawesome.com/823d80c0d0.js"></script>
+		<link href="style.css" type="text/css" rel="stylesheet"/>
+
+	</head>
+
+	<body>
+
+	<header>
+		<a href="#"><img id="logo" src="img/logo.png" alt="logo"/></a>
+
+		<p class="uppercase">We are Omega. We build.<br><span>Breathtaking Apps</span><br>With great attention to user experience &amp; performance</p>
+
+		<button type="button">Learn More</button>
+
+	</header>
+
+	<div class="fixed-ads-logic-box"></div>
+
+	<nav class="fixed-ads" id="home">
+		
+		<a href="#"><img src="img/logo.png" alt="sub-logo"/></a>
+
+		<ul>
+			<li><a href="#" data-target='home'>Home</a></li>
+			<li><a href="#" data-target='about'>About</a></li>
+			<li><a href="#" data-target='what'>What we do</a></li>
+			<li><a href="#" data-target='team'>Team</a></li>
+			<li><a href="#" data-target='portfolio'>Portfolio</a></li>
+			<li><a href="#" data-target='pricing'>Pricing</a></li>
+			<li><a href="#" data-target='clients'>Clients</a></li>
+			<li><a href="#" data-target='contact'>Contact</a></li>
+		</ul>
+
+	</nav>
+
+		<!-- Mobile navigation -->
+
+	
+	<header class="mobile_nav fixed-ads">
+
+		<a href="#" class="hamburger">&#9776;</a>
+		<a href="#" class="cross">X</a>
+
+		<div class="menu">
+			<ul>
+			    <a href="#"><li>What we do</li></a>
+			    <a href="#"><li>Meet the team</li></a>
+			    <a href="#"><li>What we've done</li></a>
+			    <a href="#"><li>Our pricing tables</li></a>
+			    <a href="#"><li>Contact</li></a>
+			</ul>
+
+	</header>
+
+	<!-- Mobile navigation ends -->
+
+	<main id="about">
+
+		<div class="center">
+
+			<div class="col_1">
+
+				<h2>We are Omega</h2>
+
+				<hr>
+
+				<h1>We build breathtaking apps &amp; we never stop learning. That's what we do.</h1>
+
+				<p>Lorem ipsum dolor sit amet, ne nec adipisci evertitur. Mel dolorum habemus cu, has no dico clita assentior, quod probo labores has te. His ex possim persius salutatus, per vitae soleat inimicus ex.</p>
+
+			</div>
+
+			<div class="img_box">
+
+				<img src="img/phone_new2.jpg"/>
+			</div>
+
+		</div>
+
+	</main>
+
+	<!-- What we do section -->
+
+
+	<section class="bg_grey" id="what">
+
+		<div class="what_container center">
+
+			<h2>What we do</h2>
+
+			<hr>
+
+			<h1>We're energetic and determined. We're driven by results and committed to helping your business succeed.</h1>
+
+			<div class="col">
+				
+				<a href="#" class="modalTrigger" data-modal-target="modal1Target"><div id="icon_like"></div></a>
+				<h2>UNIQUE DESIGN</h2>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, ne nec adipisci evertitur. Mel dolorum habemus cu, has no dico clita assentior.</p>
+			</div>
+
+			<div class="col">
+				<a href="#" class="modalTrigger" data-modal-target="modal2Target"><div id="icon_headset"></div></a>
+				<h2>FRIENDLY SUPPORT</h2>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, ne nec adipisci evertitur. Mel dolorum habemus cu, has no dico clita assentior.</p>
+			</div>
+
+			<div class="col">
+				<a href="#" class="modalTrigger" data-modal-target="modal3Target"><div id="icon_star"></div></a>
+				<h2>CREATIVE SOLUTION</h2>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, ne nec adipisci evertitur. Mel dolorum habemus cu, has no dico clita assentior.</p>
+			</div>
+
+			<div class="col">
+				<a href="#" class="modalTrigger" data-modal-target="modal4Target"><div id="icon_box"></div></a>
+				<h2>OUT OF THE BOX IDEAS</h2>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, ne nec adipisci evertitur. Mel dolorum habemus cu, has no dico clita assentior.</p>
+			</div>
+
+		</div>
+
+	</section>
+
+	<section id="bg_black">
+		<div class="black_container center">
+			
+			<div class="black_icon">
+				<img src="img/svg/green/heart-green.svg" alt="heart_icon"/>
+				<h3>54 100</h3>
+				<p>Lovely clients</p>
+			</div>
+
+			<div class="black_icon">
+				<img src="img/svg/green/trumpet-green.svg" alt="trumpet_icon"/>
+				<h3>185 200</h3>
+				<p>Listened to music</p>
+			</div>
+
+			<div class="black_icon">
+				<img src="img/svg/green/trophy-green.svg" alt="trophy_icon"/>
+				<h3>367</h3>
+				<p>Awards &amp; recognition</p>
+			</div>
+
+			<div class="black_icon">
+				<img src="img/svg/green/download-green.svg" alt="download_icon"/>
+				<h3>251,060</h3>
+				<p>Downloads</p>
+			</div>
+
+		</div>
+
+	</section>
+<!-- 
+	Meet the team section -->
+
+	<section class="bg_white" id="team">
+		<div class="team center">
+
+			<h2>Meet the team</h2>
+
+			<hr>
+
+			<h1>Be it any business you run, we give you exceptional branding &amp; great marketing strategies.</h1>
+
+<!-- These get clicked to display the info in the Profile Section ___________ -->
+
+			<div class="ProfileSlider">
+				<img class="ProfileSlide first_profile active" data-profile-id="Jane" src="img/pic_1.png" alt="Janes Profile">
+				<img class="ProfileSlide" data-profile-id="John" src="img/pic_2.png" alt="Johns Profile">
+				<img class="ProfileSlide" data-profile-id="Chris" src="img/pic_3.png" alt="Bens Profile">
+				<img class="ProfileSlide" data-profile-id="Sam" src="img/pic_4.png" alt="Angies Profile">
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Arrow pointer to individual profile -->
+
+	<div class="center"><i class="fa fa-play" aria-hidden="true"></i></div>
+
+	<!-- Profile section -->
+
+	<section id="profile_bg">
+
+		<div class="profile_container center">
+
+		<!-- JANES INFO -->
+
+			<div class="profile_slide active" id="Jane" data-profile-id="Jane">
+				<div class="profile_info">
+					<h4>Jane Donga</h4>
+					<h5>Founder</h5>
+					<p>Rutrum sagittis dictumst ridiculus imperdiet, placerat. Cubilia litora aliquet volutpat fermentum quis. Praesent curae; Maecenas ornare congue. A maecenas sodales malesuada quam nostra volutpat fermentum. Eleifend. Odio nam quisque facilisi.</p>
+
+					<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+					<a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+				</div>
+
+				<div class="skills">
+					<h6>WordPress (99.9&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_99"></div>
+					</div>
+
+					<h6>Python (95&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_95"></div>
+					</div>
+
+					<h6>Adobe Illustrator (80&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_80"></div>
+					</div>
+
+					<h6>Content Development (45&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_45"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- JOHN'S INFO -->
+
+			<div class="profile_slide" id="John" data-profile-id="John">
+				<div class="profile_info">
+					<h4>John Smith</h4>
+					<h5>Co Founder</h5>
+					<p>Rutrum sagittis dictumst ridiculus imperdiet, placerat. Cubilia litora aliquet volutpat fermentum quis. Praesent curae; Maecenas ornare congue. A maecenas sodales malesuada quam nostra volutpat fermentum. Eleifend. Odio nam quisque facilisi.</p>
+
+					<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+					<a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+				</div>
+
+				<div class="skills">
+					<h6>WordPress (50&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_99"></div>
+					</div>
+
+					<h6>Python (100&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_95"></div>
+					</div>
+
+					<h6>Adobe Illustrator (70&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_80"></div>
+					</div>
+
+					<h6>Content Development (90&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_45"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- CHRIS'S INFO -->
+
+			<div class="profile_slide" id="Chris" data-profile-id="Chris">
+				<div class="profile_info">
+					<h4>Chris Buchan</h4>
+					<h5>Developer</h5>
+					<p>Rutrum sagittis dictumst ridiculus imperdiet, placerat. Cubilia litora aliquet volutpat fermentum quis. Praesent curae; Maecenas ornare congue. A maecenas sodales malesuada quam nostra volutpat fermentum. Eleifend. Odio nam quisque facilisi.</p>
+
+					<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+					<a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+				</div>
+
+				<div class="skills">
+					<h6>Javascript (99.9&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_99"></div>
+					</div>
+
+					<h6>Python (95&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_95"></div>
+					</div>
+
+					<h6>CSS (90&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_80"></div>
+					</div>
+
+					<h6>Content Development (80&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_45"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- SAM'S INFO -->
+ 
+			<div class="profile_slide" id="Sam" data-profile-id="Sam">
+				<div class="profile_info">
+					<h4>Sam McIntosh</h4>
+					<h5>Senior Designer</h5>
+					<p>Rutrum sagittis dictumst ridiculus imperdiet, placerat. Cubilia litora aliquet volutpat fermentum quis. Praesent curae; Maecenas ornare congue. A maecenas sodales malesuada quam nostra volutpat fermentum. Eleifend. Odio nam quisque facilisi.</p>
+
+					<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+
+					<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+					<a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+				</div>
+
+				<div class="skills">
+					<h6>Adobe Indesign (99.9&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_99"></div>
+					</div>
+
+					<h6>Adobe Photoshop (95&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_95"></div>
+					</div>
+
+					<h6>Adobe Illustrator (80&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_80"></div>
+					</div>
+
+					<h6>Social Network (45&#37;)</h6>
+					<div class="slides">
+						<div class="green_slide slide_45"></div>
+					</div>
+				</div>
+			</div>
+
+<!--  ___________________ INFO ENDS ____________________________ -->
+
+		</div>
+	</section>
+		
+	<section class="bg_white" id="portfolio">
+		<div class="work center">
+
+			<h2>What we've done</h2>
+
+			<hr>
+
+			<h1 class="grey_txt">We combine intelligent thinking with beautiful design to keep your brand engaging. This helps challenging brands find their clarity.</h1>
+		</div>
+	</section>
+
+	<div class="sub_nav center">
+		<ul>
+			<a href="#"><li>All</li></a>
+			<a href="#"><li>Logo Design</li></a>
+			<a href="#"><li>Mobile Development</li></a>
+			<a href="#"><li>Branding</li></a>
+			<a href="#"><li>3D Design</li></a>
+		</ul>
+	</div>
+
+<!-- 	Portfolio images -->
+
+	<section class="port_pics">
+		<ul>
+			<a href="#"><li><img src="img/port_01.png"/></li></a>
+			<a href="#"><li><img src="img/port_02.png"/></li></a>
+			<a href="#"><li><img src="img/port_03.png"/></li></a>
+			<a href="#"><li><img src="img/port_04.png"/></li></a>
+			<a href="#"><li><img src="img/port_05.png"/></li></a>
+		</ul>
+
+		<ul>
+			<a href="#"><li><img src="img/port_06.png"/></li></a>
+			<a href="#"><li><img src="img/port_07.png"/></li></a>
+			<a href="#"><li><img src="img/port_08.png"/></li></a>
+			<a href="#"><li><img src="img/port_09.png"/></li></a>
+			<a href="#"><li><img src="img/port_10.png"/></li></a>
+		</ul>
+
+	</section>
+
+
+	<!-- Pricing tables -->
+
+	<section class="bg_white" id="pricing">
+		<div class="what_container center">
+
+			<h2>Pricing tables</h2>
+
+			<hr>
+
+			<h1>We have flexible pricing options that caters to your need. Below is our lightweight pricing table.</h1>
+
+			<div class="col_price">
+				<h2>BASIC</h2>
+				<p id="padding"><span>$299</span>/per month</p>
+				<div class="underline"><p>Web design</p></div>
+				<div class="underline"><p>Creative Retouching</p></div>
+				<div class="underline"><p>CG Production</p></div>
+				<div class="underline"><p>Tech support</p></div>
+				<div><p>Branding</p></div>
+				<button type="button">SIGN UP NOW</button>
+			</div>
+
+			<div class="col_price">
+				<h2>STANDARD</h2>
+				<p id="padding"><span>$399</span>/per month</p>
+				<div class="underline"><p>Web design</p></div>
+				<div class="underline"><p>Creative Retouching</p></div>
+				<div class="underline"><p>CG Production</p></div>
+				<div class="underline"><p>Tech support</p></div>
+				<div><p>Branding</p></div>
+				<button type="button">SIGN UP NOW</button>
+			</div>
+
+			<div class="col_price">
+				<h2>PREMIUM</h2>
+				<p id="padding"><span>$499</span>/per month</p>
+				<div class="underline"><p>Web design</p></div>
+				<div class="underline"><p>Creative Retouching</p></div>
+				<div class="underline"><p>CG Production</p></div>
+				<div class="underline"><p>Tech support</p></div>
+				<div><p>Branding</p></div>
+				<button type="button">SIGN UP NOW</button>
+			</div>
+
+			<div class="col_price">
+				<h2>PROFESSIONAL</h2>
+				<p id="padding"><span>$599</span>/per month</p>
+				<div class="underline"><p>Web design</p></div>
+				<div class="underline"><p>Creative Retouching</p></div>
+				<div class="underline"><p>CG Production</p></div>
+				<div class="underline"><p>Tech support</p></div>
+				<div><p>Branding</p></div>
+				<button type="button">SIGN UP NOW</button>
+			</div>	
+
+		</div>
+
+	</section>
+
+	<!-- The clients section -->
+
+	<section class="bg_grey" id="clients">
+		<div class="what_container center">
+
+			<h2>Our clients</h2>
+
+			<hr>
+
+			<h1>Over 5,000+ clients in less than 1.5 years including Fortune 500 companies.
+			Some of them are listed below.</h1>
+
+			<ul class="client_logos">
+				<a href="#"><li><img src="img/01.jpg" alt="graphic river"/></li></a>
+				<a href="#"><li><img src="img/02.jpg"/></li></a>
+				<a href="#"><li><img src="img/03.jpg"/></li></a>
+				<a href="#"><li><img src="img/04.jpg"/></li></a>
+				<a href="#"><li><img src="img/05.jpg"/></li></a>
+			</ul>
+
+		</div>
+	</section>
+
+	<!-- Form section -->
+
+	<section class="bg_white" id="contacts">
+		<div class="what_container center">
+
+			<h2>Contact us</h2>
+
+			<hr>
+
+			<form class="left">
+				<input type="text" name="firstname" value="First Name"><br/>
+				<input type="text" name="surname" value="Surname"><br/>
+				<input type="email" placeholder="First Name" value="Email Address"/><br/>
+				<button type="button">SUBMIT</button>
+			</form>
+
+			<form class="right">
+				<textarea maxlength="200"></textarea>
+			</form>
+
+		</div>
+	</section>
+
+	<footer class="bg_grey">
+
+		<div class="footer_container center">
+
+			<p class="footer_para"><span>&copy; Fritts Templates.</span> All Rights Reserved.</p>
+
+			<div class="footer_icons">
+
+				<a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-google-plus" ></i></a>
+				<a href="#"><i class="fa fa-linkedin" ></i></a>
+			</div>
+		</div>
+
+	</footer>
+
+<!-- 	MODAL CONTAINERS _____________________________________________-->
+
+	<div class="modal-container md-effect-8" id="modal1Target">
+		<div class="modal-content">
+			<a href="#" class="modal-close">X</a>
+
+			<h2>Unique Design</h2>
+
+			<hr>
+
+			<h1>Nullam id dolor id nibh ultricies vehicula ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h1>
+		</div>
+	</div>
+
+	<div class="modal-container md-effect-8" id="modal2Target">
+		<div class="modal-content">
+			<a href="#" class="modal-close">X</a>
+
+			<h2>Friendly Support</h2>
+
+			<hr>
+
+			<h1>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui.</h1>
+		</div>
+	</div>
+
+		<div class="modal-container md-effect-8" id="modal3Target">
+		<div class="modal-content">
+			<a href="#" class="modal-close">X</a>
+
+			<h2>Creative Solution</h2>
+
+			<hr>
+
+			<h1>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui.</h1>
+		</div>
+	</div>
+
+		<div class="modal-container md-effect-8" id="modal4Target">
+		<div class="modal-content">
+			<a href="#" class="modal-close">X</a>
+
+			<h2>Out of the Box Ideas</h2>
+
+			<hr>
+
+			<h1>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui.</h1>
+		</div>
+	</div>
+
+	<div class="md-overlay"></div>
+
+
+
+
+<!-- 	MODAL CONTAINERS END _____________________________________________-->
+
+	<!-- This links to Jquery and your external javascript file -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="javascript.js"></script>
+
+	</body>
+
+</html>
